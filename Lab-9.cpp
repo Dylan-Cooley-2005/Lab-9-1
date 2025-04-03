@@ -39,6 +39,14 @@ int main()
 		cout << array[i] << " "; // Print each element at an even index
 	}
 	cout << endl;
+	// Print every even element
+	cout << "Every even element: "; // Loop through the array
+	for (int i = 0; i < 10; i++) { // Check if the element is even
+		if (array[i] % 2 == 0) { // If the element is even
+			cout << array[i] << " ";
+		}
+	}
+	cout << endl;
 		// End of program
 	return 0;
 }
