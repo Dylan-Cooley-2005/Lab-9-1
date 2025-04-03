@@ -47,6 +47,12 @@ int main()
 		}
 	}
 	cout << endl;
+	// Print all elements in reverse order
+	cout << "All elements in reverse order: ";
+	for (int i = 9; i >= 0; i--) { // Loop through the array in reverse
+		cout << array[i] << " ";
+	}
+	cout << endl;
 		// End of program
 	return 0;
 }
