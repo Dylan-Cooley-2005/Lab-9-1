@@ -33,6 +33,12 @@ int main()
 		cout << array[i] << " "; // Print each element
 	}
 	cout << endl;
+	// Print every element at an even index
+	cout << "Every element at an even index: ";
+	for (int i = 0; i < 10; i += 2) { // Loop through the array with a step of 2
+		cout << array[i] << " "; // Print each element at an even index
+	}
+	cout << endl;
 		// End of program
 	return 0;
 }
