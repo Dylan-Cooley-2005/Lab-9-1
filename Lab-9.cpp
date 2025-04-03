@@ -53,6 +53,9 @@ int main()
 		cout << array[i] << " ";
 	}
 	cout << endl;
+	// Print only the first and last element
+	cout << "Only the first and last element: ";
+	cout << array[0] << " " << array[9] << endl; // Print the first and last element
 		// End of program
 	return 0;
 }
